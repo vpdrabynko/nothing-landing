@@ -1,7 +1,21 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./utils/variables";
+@import "./utils/mixins";
 
-body {
-  background: $c-gray;
-}
+@import "./blocks/page";
+@import "./blocks/container";
+@import "./blocks/header";
+@import "./blocks/icon";
+@import "./blocks/menu";
+@import "./blocks/nav";
+@import "./blocks/top-bar.scss";
+@import "./blocks/main";
+@import "./blocks/section";
+@import "./blocks/recomended";
+@import "./blocks/product";
+@import "./blocks/categories";
+@import "./blocks/category";
+@import "./blocks/separator";
+@import "./blocks/about-us";
+@import "./blocks/contact-us";
+@import "./blocks/formfield";
+@import "./blocks/button";
