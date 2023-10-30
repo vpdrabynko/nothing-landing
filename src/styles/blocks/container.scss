@@ -10,4 +10,8 @@
     margin-inline: auto;
     max-width: 1020px;
   }
+
+  @include onBigDesktop {
+    max-width: 1400px;
+  }
 }

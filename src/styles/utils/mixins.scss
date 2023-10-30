@@ -10,6 +10,12 @@
   }
 }
 
+@mixin onBigDesktop {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
+
 @mixin constentPaddingInline() {
   padding-inline: 20px;
 
